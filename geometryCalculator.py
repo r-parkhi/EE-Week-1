@@ -43,7 +43,7 @@ elif shape == "t":
     height = float(input("Enter the height: "));
 
     result = areaTriangle(base, height);
-    print(f"\nThe area of the rectangle is {result} units squared.");
+    print(f"\nThe area of the triangle is {result} units squared.");
     pass;
 
 # circle
@@ -51,7 +51,7 @@ elif shape == "c":
     radius = float(input("Enter the radius: "));
 
     result = areaCircle(radius);
-    print(f"\nThe area of the rectangle is {result} units squared.");
+    print(f"\nThe area of the circle is {result} units squared.");
     pass;
 
 else:
